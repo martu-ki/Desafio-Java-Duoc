@@ -3,5 +3,8 @@
 public class Main {
     public static void main(String[] args) {
 
+        Estudiante estudiante = new Estudiante("Ana","Ingieneria en informatica",20 );
+
+        estudiante.mostrarInformacion();
     }
 }
